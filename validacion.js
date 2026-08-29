@@ -2,7 +2,7 @@ function askInformation() {
     for (let tries = 0; tries < 3;) {
         const USER = "Admin123";
         const PASSWORD = 12345;
-        let userInput = prompt("Ingrese nombre de usuario:: ");
+        let userInput = prompt("Ingrese nombre de usuario: ");
         let userPassword = parseFloat(prompt("Ingrese contraseña: "));
 
         if (userInput != USER || userPassword != PASSWORD) {
